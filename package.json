@@ -1,8 +1,8 @@
 {
-  "name": "redux-compose-react",
+  "name": "redux-composed-react",
   "version": "1.0.0",
   "description": "Redux compose with react bindings",
-  "main": "lib/redux-compose-react.js",
+  "main": "lib/redux-composed-react.js",
   "scripts": {
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
     "build": "npm run build:commonjs",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/WorldSEnder/redux-compose-react.git"
+    "url": "https://github.com/WorldSEnder/redux-composed-react.git"
   },
   "files": [
     "src",
@@ -21,9 +21,9 @@
   "author": "WorldSEnder",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WorldSEnder/redux-compose-react/issues"
+    "url": "https://github.com/WorldSEnder/redux-composed-react/issues"
   },
-  "homepage": "https://github.com/WorldSEnder/redux-compose-react#readme",
+  "homepage": "https://github.com/WorldSEnder/redux-composed-react#readme",
   "peerDependencies": {
     "react-redux": "^5.0.6",
     "redux-compose": "^1.0.0"
