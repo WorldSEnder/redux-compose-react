@@ -1,4 +1,4 @@
-import { routeDown } from 'redux-compose'
+import { routeDown } from 'redux-composed'
 
 function getSafely(obj, element) {
 	return obj == null ? undefined : obj[element];
