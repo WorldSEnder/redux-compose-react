@@ -18,7 +18,7 @@ export default class ProxyStore {
 		return state;
 	}
 
-	dispath(action) {
+	dispatch(action) {
 		for (var i = this.path.length - 1; i >= 0; i--) {
 			var component = this.path[i];
 			action = routeDown(action, component);
