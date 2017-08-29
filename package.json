@@ -1,6 +1,6 @@
 {
   "name": "redux-composed-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Redux compose with react bindings",
   "main": "lib/redux-composed-react.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/WorldSEnder/redux-composed-react#readme",
   "peerDependencies": {
     "react-redux": "^5.0.6",
-    "redux-compose": "^1.0.0"
+    "redux-composed": "^1.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
