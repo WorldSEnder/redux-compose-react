@@ -1,6 +1,6 @@
 {
   "name": "redux-composed-react",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Redux compose with react bindings",
   "main": "lib/redux-composed-react.js",
   "scripts": {

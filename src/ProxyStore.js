@@ -10,7 +10,7 @@ export default class ProxyStore {
 		this.path = path;
 	}
 
-	getState() {
+	getState = () => {
 		var state = this.store.getState();
 		for(var pathElement of this.path) {
 			state = getSafely(state, pathElement);
@@ -18,7 +18,7 @@ export default class ProxyStore {
 		return state;
 	}
 
-	dispatch(action) {
+	dispatch = (action) => {
 		for (var i = this.path.length - 1; i >= 0; i--) {
 			var component = this.path[i];
 			action = routeDown(action, component);
@@ -26,7 +26,7 @@ export default class ProxyStore {
 		this.store.dispatch(action);
 	}
 
-	subscribe(listener) {
+	subscribe = (listener) => {
 		// TODO: possibly only trigger when the action affected this part of the store?
 		return this.store.subscribe(listener);
 	}
